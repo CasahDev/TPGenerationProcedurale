@@ -8,4 +8,28 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0-windows\TPGenerationProcedurale.deps.json" />
+    <Content Include="bin\Debug\net8.0-windows\TPGenerationProcedurale.dll" />
+    <Content Include="bin\Debug\net8.0-windows\TPGenerationProcedurale.exe" />
+    <Content Include="bin\Debug\net8.0-windows\TPGenerationProcedurale.pdb" />
+    <Content Include="bin\Debug\net8.0-windows\TPGenerationProcedurale.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="bin\**" />
+  </ItemGroup>
+
 </Project>
