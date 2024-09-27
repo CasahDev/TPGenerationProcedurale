@@ -109,6 +109,7 @@ namespace TPGenerationProcedurale.ViewModel
                 //Initialization of the factory
             AlgorithmFactory.Register("Vertical Gradient Algorithm", new AlgorithmVerticalGradientMaker());
             AlgorithmFactory.Register("Horizontal Gradient Algorithm", new AlgorithmHorizontalGradientMaker());
+            AlgorithmFactory.Register("Algo diamant carré",new AlgorithmDiamantCarreMaker());
 
 
             //Initialization of the list
